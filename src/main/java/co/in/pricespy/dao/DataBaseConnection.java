@@ -14,7 +14,7 @@ public class DataBaseConnection {
 //		String pwd = "root";
 		
 		
-		String url = "jdbc:mysql://mysql-7904722-pawansingh2m4-5e71.h.aivencloud.com:19798/defaultdb?ssl-mode=REQUIRED";
+		String url = "jdbc:mysql://mysql-7904722-pawansingh2m4-5e71.h.aivencloud.com:19798/defaultdb?sslMode=REQUIRED";
 		String user = "avnadmin";
 		String pwd = "AVNS_xebAMf83jKk537843SD";
 
