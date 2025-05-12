@@ -50,14 +50,18 @@
 					</h6>
 
 					<div class="card-footer">
-
+					
+						<a href=<%=bean.getAlinks()%> class="btn btn-dark ps-10 my-btn">By
+							from Amazon</a><br> <a href=<%=bean.getFlinks()%>
+							class="btn btn-dark ps-10 my-btn">By from Flipkart</a>
 							
-							<a href="<%=bean.getAlinks()%>" class="btn btn-dark ps-10 my-btn buy-btn" target="_blank">
+							<!--  <a href="<%=bean.getAlinks()%>" class="btn btn-dark ps-10 my-btn buy-btn" target="_blank">
   							<img src="Flipkart and Amazon/amazon.png" alt="Amazon" style="width: 100px;">
 							</a><br>
 							<a href="<%=bean.getFlinks()%>" class="btn btn-dark ps-10 my-btn " target="_blank">
   							<img src="Flipkart and Amazon/flipkart.png" alt="Flipkart" style="width: 100px;">
 							</a>
+							-->
 							
 					</div>
 					<%
